@@ -24,12 +24,12 @@ const filterData = [
 
 ## Props
 
-| Prop name            | Type                                                | Default value          | Description                                                                                      |
-|----------------------|-----------------------------------------------------|------------------------|--------------------------------------------------------------------------------------------------|
-| data                 | `any[]`                                             | -                      | An array of items to display as tags.                                                           |
-| onSelect             | `(item: any, index: number) => void`                | -                      | A function called when a tag is selected. It receives the selected item and its index.         |
-| renderLabel          | `(item: any) => string`                             | -                      | A function used to render the label of each tag.                                                 |
-| containerStyle       | `StyleProp<ViewStyle>` or `undefined`               | -                      | Optional styling for the container of the Tag component.                                          |
-| style                | `StyleProp<ViewStyle>` or `(selected: boolean) => StyleProp<ViewStyle>` or `undefined` | -     | Optional styling for the tags. It can be either a style object or a function.                   |
-| labelStyle           | `StyleProp<TextStyle>` or `(selected: boolean) => StyleProp<TextStyle>` or `undefined` | -   | Optional styling for the label of the tags. It can be either a style object or a function.       |
-| defaultSelectedIndex | `number` or `undefined`                             | `0`                    | The default index of the selected tag.                                                          |
+| Prop name            | Type                                                | Required | Default value          | Description                                                                                      |
+|----------------------|-----------------------------------------------------|----------|------------------------|--------------------------------------------------------------------------------------------------|
+| data                 | `any[]`                                             | Yes      | -                      | An array of items to display as tags.                                                           |
+| onSelect             | `(item: any, index: number) => void`                | No       | -                      | A function called when a tag is selected. It receives the selected item and its index.         |
+| renderLabel          | `(item: any) => string`                             | Yes      | -                      | A function used to render the label of each tag.                                                 |
+| containerStyle       | `StyleProp<ViewStyle>` or `undefined`               | No       | -                      | Optional styling for the container of the Tag component.                                          |
+| style                | `StyleProp<ViewStyle>` or `(selected: boolean) => StyleProp<ViewStyle>` or `undefined` | No | - | Optional styling for the tags. It can be either a style object or a function.                   |
+| labelStyle           | `StyleProp<TextStyle>` or `(selected: boolean) => StyleProp<TextStyle>` or `undefined` | No | - | Optional styling for the label of the tags. It can be either a style object or a function.       |
+| defaultSelectedIndex | `number` or `undefined`                             | No       | `0`                    | The default index of the selected tag.                                                          |
