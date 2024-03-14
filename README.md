@@ -1,9 +1,13 @@
 ## Installation
 
-- 1.Run `npm i react-native-chipgroup`
+```
+  npm i react-native-chipgroup
+
+```
 
 ## Getting started
 
+```JavaScript
 import { FilterTags } from 'react-native-chipgroup';
 
 <FilterTags
@@ -11,3 +15,4 @@ import { FilterTags } from 'react-native-chipgroup';
     renderLabel={(item) => item.label}
     onSelect={(item) => console.log(item)}
 />
+```
