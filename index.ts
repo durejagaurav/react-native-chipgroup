@@ -1,1 +1,1 @@
-export * as FilterTags from './components'
+export { Tag as FilterTags } from './components';
