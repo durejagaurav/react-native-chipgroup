@@ -1,6 +1,6 @@
 {
   "name": "react-native-chipgroup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package is meant to use Chips for filters",
   "main": "src/index.ts",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "Gaurav Dureja",
   "license": "ISC",
   "peerDependencies": {
-    "react": "18.2.0", 
+    "react": "18.2.0",
     "react-native": "0.72.6",
     "react-native-responsive-dimensions": "^3.1.1"
   },
