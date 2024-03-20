@@ -1,6 +1,6 @@
 {
   "name": "react-native-chipgroup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package is meant to use Chips for filters",
   "main": "src/index.ts",
   "scripts": {
