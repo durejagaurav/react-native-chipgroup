@@ -1,8 +1,8 @@
 {
   "name": "react-native-chipgroup",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This package is meant to use Chips for filters",
-  "main": "index.tsx",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

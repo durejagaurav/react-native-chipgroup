@@ -20,7 +20,7 @@ interface ChipGroupProps {
     defaultSelectedIndex?: number;
 }
 
-export const Tag: React.FC<ChipGroupProps> = ({ data, onSelect, renderLabel, style, labelStyle, containerStyle, defaultSelectedIndex = 0 }) => {
+export const SelectChip: React.FC<ChipGroupProps> = ({ data, onSelect, renderLabel, style, labelStyle, containerStyle, defaultSelectedIndex = 0 }) => {
 
     const [selected, setSelected] = useState<number | null>(null);
 

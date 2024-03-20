@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
         alignSelf: 'center',
         borderColor: '#d9d9d9',
         borderWidth: 1,
-        paddingVertical: responsiveHeight(0.7),
+        paddingVertical: responsiveHeight(1),
         paddingHorizontal: responsiveWidth(3),
         borderRadius: 5,
         marginEnd: responsiveWidth(2),

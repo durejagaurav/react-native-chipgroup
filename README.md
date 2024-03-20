@@ -7,7 +7,7 @@
 ## Usage
 
 ```JavaScript
-import { FilterTags } from 'react-native-chipgroup';
+import { SelectChip } from 'react-native-chipgroup';
 
 const filterData = [
     { label: 'All', value: 'all' },
@@ -15,7 +15,7 @@ const filterData = [
     { label: 'Female', value: 'female' }
   ]
 
-<FilterTags
+<SelectChip
     data={filterData}
     renderLabel={(item) => item.label}
     onSelect={(item) => console.log(item)}
