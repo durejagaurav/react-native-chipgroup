@@ -7,16 +7,9 @@ interface Props {
     mode?: 'flat' | 'outlined';
     children?: ReactNode
     onPress?: () => void
-
-    /* Icon to display on left side for the `Chip` | Default value 'false' */
     leftIcon?: ReactNode
-
-    /* Icon to display on right side for the `Chip` | Default value 'false' */
     rightIcon?: ReactNode
-
-    /* Icon to display as the close button for the `Chip` | Default value 'false' */
     isCloseIcon?: Boolean
-
     onClose?: () => void
     containerStyle?: StyleProp<ViewStyle>
     style?: StyleProp<ViewStyle>
