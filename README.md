@@ -19,7 +19,7 @@ Using npm:
 
 ```JavaScript
 import React from 'react';
-import { View } from 'react-native';
+import { View, Image } from 'react-native';
 import { Chip, SelectChip } from 'react-native-chipgroup';
 
 const data = ['Option 1', 'Option 2', 'Option 3'];
@@ -90,3 +90,7 @@ export default App;
 | style                | `StyleProp<ViewStyle>` or `(selected: boolean) => StyleProp<ViewStyle>` or `undefined` | No | - | Optional styling for the tags. It can be either a style object or a function.                   |
 | labelStyle           | `StyleProp<TextStyle>` or `(selected: boolean) => StyleProp<TextStyle>` or `undefined` | No | - | Optional styling for the label of the tags. It can be either a style object or a function.       |
 | defaultSelectedIndex | `number` or `undefined`                             | No       | `0`                    | The default index of the selected tag.                                                          |
+
+## License
+
+The library is released under the ISC license. For more information see the License Tab.
