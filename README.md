@@ -19,30 +19,29 @@ Using npm:
 
 ```JavaScript
 import React from 'react';
-import { View, Image } from 'react-native';
+import { View } from 'react-native';
 import { Chip, SelectChip } from 'react-native-chipgroup';
 
-const data = ['Option 1', 'Option 2', 'Option 3'];
+const data = [
+  { label: 'Option 1', value: 1 },
+  { label: 'Option 2', value: 2 },
+  { label: 'Option 3', value: 3 }
+];
 
 const App = () => {
 
   const handleSelect = (item, index) => {
-    console.log(`Selected: ${item} at index ${index}`);
+    console.log(`Selected: ${item.value} at index ${index}`);
   };
 
   return (
-    <View>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
 
       <Chip
         mode="outlined"
         onPress={() => console.log('Chip pressed')}
-        leftIcon={<Image style={{ tintColor: 'white', height: 20, width: 20 }} source= {require('./src/assets/view.png')} />}
-        rightIcon={<Image style={{ tintColor: 'white', height: 20, width: 20 }} source={require('./src/assets/view.png')} />}
         isCloseIcon={true}
         onClose={() => console.log('Close icon pressed')}
-        containerStyle={{ marginVertical: 10 }}
-        style={{ borderRadius: 10 }}
-        labelStyle={{ fontSize: 16 }}
       >
         Example Chip
       </Chip>
@@ -52,6 +51,7 @@ const App = () => {
         onSelect={handleSelect}
         renderLabel={(item) => item.label}
         defaultSelectedIndex={0}
+        containerStyle={{ marginTop: 20 }}
       />
 
     </View>
