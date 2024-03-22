@@ -24,58 +24,22 @@ const data = [
 
 ## Props
 
-- **mode**: `'flat' \| 'outlined'`
-  - *Required*: No
-  - *Default value*: `'flat'`
-  - *Description*: The mode of the chip, either `'flat'` or `'outlined'`.
+### Chip
 
-- **children**: `ReactNode`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: The content of the chip.
+| Prop name            | Type                                                | Required | Default value          | Description                                                                                      |
+|----------------------|-----------------------------------------------------|----------|------------------------|--------------------------------------------------------------------------------------------------|
+| mode                 | `'flat' \| 'outlined'`                             | No       | `'flat'`               | The mode of the chip, either `'flat'` or `'outlined'`.                                          |
+| children             | `ReactNode`                                         | No       | -                      | The content of the chip.                                                                         |
+| onPress              | `() => void`                                        | No       | -                      | A function called when the chip is pressed.                                                     |
+| leftIcon             | `ReactNode`                                         | No       | -                      | An icon to be displayed on the left side of the chip.                                           |
+| rightIcon            | `ReactNode`                                         | No       | -                      | An icon to be displayed on the right side of the chip.                                          |
+| isCloseIcon          | `Boolean`                                           | No       | -                      | Determines whether to show a close icon on the chip.                                            |
+| onClose              | `() => void`                                        | No       | -                      | A function called when the close icon is pressed.                                               |
+| containerStyle       | `StyleProp<ViewStyle>` or `undefined`               | No       | -                      | Optional styling for the container of the Chip component.                                        |
+| style                | `StyleProp<ViewStyle>` or `(selected: boolean) => StyleProp<ViewStyle>` or `undefined` | No | - | Optional styling for the chip.                                                                   |
+| labelStyle           | `StyleProp<TextStyle>` or `(selected: boolean) => StyleProp<TextStyle>` or `undefined` | No | - | Optional styling for the label of the chip.                                                      |
 
-- **onPress**: `() => void`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: A function called when the chip is pressed.
-
-- **leftIcon**: `ReactNode`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: An icon to be displayed on the left side of the chip.
-
-- **rightIcon**: `ReactNode`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: An icon to be displayed on the right side of the chip.
-
-- **isCloseIcon**: `Boolean`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: Determines whether to show a close icon on the chip.
-
-- **onClose**: `() => void`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: A function called when the close icon is pressed.
-
-- **containerStyle**: `StyleProp<ViewStyle>`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: Optional styling for the container of the Chip component.
-
-- **style**: `StyleProp<ViewStyle>`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: Optional styling for the chip.
-
-- **labelStyle**: `StyleProp<TextStyle>`
-  - *Required*: No
-  - *Default value*: -
-  - *Description*: Optional styling for the label of the chip.
-
-
-## Props
+### SelectChip
 
 | Prop name            | Type                                                | Required | Default value          | Description                                                                                      |
 |----------------------|-----------------------------------------------------|----------|------------------------|--------------------------------------------------------------------------------------------------|
