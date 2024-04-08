@@ -1,6 +1,6 @@
 {
   "name": "react-native-chipgroup",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This is a library that provides custom React Native components for creating interactive chip elements and selectable chip groups. These components are designed to enhance user interaction in React Native applications by offering intuitive and customizable UI elements.",
   "main": "src/index.ts",
   "scripts": {
