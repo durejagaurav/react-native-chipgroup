@@ -11,9 +11,11 @@
 
 Using npm:
 ```
-  npm i react-native-responsive-dimensions
   npm i react-native-chipgroup
 ```
+
+**Note**: [react-native-responsive-dimensions](https://www.npmjs.com/package/react-native-responsive-dimensions) is a required dependency for `react-native-chipgroup`. Make sure to install it for proper functionality.
+
 
 ## Basic Usage
 
